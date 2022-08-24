@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','sans- serif';
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient( to bottom, rgb(145, 80, 145) 0%,rgb(53, 45, 45));
+}
+.wrapper{
+    margin: 120px auto;
+    max-width: 400px;
+    width: 100%;
+    background: rgb(35, 87, 94);
+    border-radius: 5px;
+    padding: 25px;
+}
+.wrapper header{
+    font-size: 30px;
+    font-weight: 600;
+}
+.inputField input{
+    outline: none;
+    width: 85%;
+    height: 100%;
+    border: 1px solid wheat;
+    font-size: 17px;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+.inputField button{
+   
+    border: none;
+    outline: none;
+    background: rgb(173, 15, 15);
+    color: rgb(138, 138, 31);
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.todoList li{
+    line-height: 45px;
+    position:relative;
+    margin-bottom: 8px;
+    height: 45px;
+    background: rgb(59, 46, 50);
+}
+.todoList li span{
+    position: absolute;
+    background: rgb(190, 84, 84);
+    width: 45px;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    right: 0px;
+}
+
+    
